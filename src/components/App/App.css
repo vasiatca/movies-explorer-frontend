@@ -1,32 +1,10 @@
-/* .App {
-  background: hsla(0, 0%, 13%, 1);
-} */
-
-.page {
-  box-sizing: border-box;
+.App {
   max-width: 1280px;
   min-width: 320px;
-  /* height: 100vh; */
+  min-height: 100vh;
   margin: 0 auto;
-  background: #202020;
-  font-style: normal;
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* #root {
-  margin: 0 auto;
-  min-height: 100vh;
-  min-width: 320px;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  font-family: "Inter", Arial, sans-serif;
-} */

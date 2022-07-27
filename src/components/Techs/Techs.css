@@ -19,10 +19,6 @@
   padding-bottom: 23px;
 }
 
-/* .techs__container {
-
-} */
-
 .techs__subtitle {
   font-style: normal;
   font-weight: 400;
@@ -116,6 +112,7 @@
     padding-right: 18px;
     padding-bottom: 70px;
     padding-left: 18px;
+    background: transparent;
   }
 
   .techs__title {

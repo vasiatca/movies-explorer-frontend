@@ -28,10 +28,6 @@
   padding-top: 70px;
 }
 
-/* .about-project__info {
-
-} */
-
 .about-project__info-heading {
   font-style: normal;
   font-weight: 400;
@@ -66,12 +62,10 @@
   text-align: center;
   color: #FFFFFF;
   background-color: #303030;
-  /* margin: 0 0 14px; */
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 14px;
   margin-left: 0;
-  /* padding: 9px 14px; */
   padding-top: 9px;
   padding-right: 14px;
   padding-bottom: 9px;
@@ -85,11 +79,7 @@
   line-height: 17px;
   text-align: center;
   color: #8B8B8B;
-  /* margin: 0; */
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
 }
 
 .about-project__timeline-heading_type_green {

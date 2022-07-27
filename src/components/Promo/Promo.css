@@ -37,7 +37,6 @@
 
 @media (max-width: 768px) {
   .promo {
-    /* box-sizing: border-box; */
     padding-top: 300px;
     padding-right: 44px;
     padding-bottom: 70px;

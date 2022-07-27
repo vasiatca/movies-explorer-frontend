@@ -1,26 +1,18 @@
 import React from "react";
-import './Header.css';
+import "./Header.css";
 import { Link } from "react-router-dom";
-import logo from '../../images/logo.svg';
+import logo from "../../images/logo.svg";
+import NavAuth from "../NavAuth/NavAuth";
+import Navigation from "../Navigation/Navigation";
 
-function Header() {
+const Header = ({ loggedIn }) => {
   return (
-    <header className="header">
-      <img className="header__logo" src={logo} alt="Логотип" />
-      <nav>
-        <ul className="header__link-list">
-          <li>
-            <Link className="header__link header__link_landing">
-              Регистрация
-            </Link>
-          </li>
-          <li>
-            <Link className="header__link header__link_landing header__link_landing_active">
-              Войти
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <header className={`header ${!loggedIn ? "header_type_auth" : ""}`}>
+      <Link to="/" className="header__link">
+        <img className="header__logo" src={logo} alt="Логотип Movies Explorer"></img>
+      </Link>
+      {!loggedIn && <NavAuth />}
+      {loggedIn && <Navigation />}
     </header>
   );
 };

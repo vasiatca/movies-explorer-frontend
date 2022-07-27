@@ -1,9 +1,16 @@
 @import url('./vendor/fonts/fonts.css');
 @import url('./vendor/normalize.css');
 
-/* #root {
-  background: hsla(0, 0%, 13%, 1);
-} */
+body {
+  background: #202020;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
 
 html {
   box-sizing: border-box;

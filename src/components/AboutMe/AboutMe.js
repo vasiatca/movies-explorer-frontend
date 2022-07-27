@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import foto from "../../images/pic.jpg";
+import photo from "../../images/pic.jpg";
 
 function AboutMe() {
   return (
@@ -16,12 +16,12 @@ function AboutMe() {
           </p>
 
           <ul className="about-me__links">
-            <li><a className="about-me__link" href="https://Facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+            <li><a className="about-me__link" href="https://t.me/" target="_blank" rel="noreferrer">Telegram</a></li>
             <li><a className="about-me__link" href="https://github.com" target="_blank" rel="noreferrer">Github</a></li>
           </ul>
         </div>
 
-        <img className="about-me__image" src={foto} alt="about-me" />
+        <img className="about-me__image" src={photo} alt="about-me" />
       </div>
     </section>
   );
