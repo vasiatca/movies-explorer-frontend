@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  background: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  padding-right: 70px;
+  padding-bottom: 18px;
+  padding-left: 70px;
+}
+
+.header_type_auth {
+  background: #073042;
+
+}
+
+.header__link {
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 44px;
+  transition: opacity .2s linear;
+}
+
+.header__logo:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 18px 30px;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding-top: 20px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+    padding-left: 14px;
+  }
+}
